@@ -20,37 +20,37 @@ This project aims to predict greenhouse gas (GHG) emissions from various agricul
 
 1. Data Cleaning & Preprocessing
 
-   * Handled missing values and encoded categorical features using `LabelEncoder`.
+   Handled missing values and encoded categorical features using `LabelEncoder`.
 
 2. Exploratory Data Analysis (EDA)
 
-   * Used `matplotlib` and `seaborn` to understand emission trends across years and commodities.
+   Used `matplotlib` and `seaborn` to understand emission trends across years and commodities.
 
 3. Model Training
 
-   * Split data into training/testing sets.
-   * Trained a `RandomForestRegressor` to model GHG emissions.
+   Split data into training/testing sets.
+   Trained a `RandomForestRegressor` to model GHG emissions.
 
 4. Model Evaluation
 
-   * Evaluated predictions using RMSE and R² score.
+   Evaluated predictions using RMSE and R² score.
 
 5. Emission Forecasting
 
-   * Generated synthetic inputs for 2017–2020.
-   * Predicted future GHG emissions using the trained model.
+   Generated synthetic inputs for 2017–2020.
+   Predicted future GHG emissions using the trained model.
 
 6. Interactive Dashboard
 
-   * Implemented a Kaggle-compatible dashboard using `ipywidgets` to:
+   Implemented a Kaggle-compatible dashboard using `ipywidgets` to:
 
-     * View predictions by year/commodity
-     * Simulate emission changes using a % slider
-     * Visualize emission shifts using bar plots
+   View predictions by year/commodity
+   Simulate emission changes using a % slider
+   Visualize emission shifts using bar plots
 
 7. Model and Output Saving
 
-   * Saved the trained model and prediction results for further use and visualization.
+   Saved the trained model and prediction results for further use and visualization.
 
 
 
