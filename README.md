@@ -45,35 +45,10 @@ Interactive Dashboard:
 
 Streamlit-powered app for user-friendly exploration and prediction
 
-Data Cleaning & Preprocessing
 
-Handled missing values and encoded categorical features using LabelEncoder.
 
-Exploratory Data Analysis (EDA)
-
-Used matplotlib and seaborn to understand emission trends across years and commodities.
-
-Model Training
-
-Split data into training/testing sets. Trained a RandomForestRegressor to model GHG emissions.
-
-Model Evaluation
-
-Evaluated predictions using RMSE and R² score.
-
-Emission Forecasting
-
-Generated synthetic inputs for 2017–2020. Predicted future GHG emissions using the trained model.
-
-Interactive Dashboard
-
-Implemented a Kaggle-compatible dashboard using ipywidgets to:
-
-View predictions by year/commodity Simulate emission changes using a % slider Visualize emission shifts using bar plots
-
-Model and Output Saving
-
-Saved the trained model and prediction results for further use and visualization.
+🧠 Best Model Predicted:
+https://drive.google.com/file/d/10QE4c8u_c-IN1SmKzBQ403c-1oKrGUJw/view?usp=drive_link
 
 
 📌 Use Cases
